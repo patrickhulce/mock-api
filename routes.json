@@ -1,0 +1,15 @@
+{
+  "/oauth/authorize": {
+    "body": {
+      "query": "<%= JSON.stringify(query) %>",
+      "body": "<%= JSON.stringify(body) %>"
+    }
+  },
+  "/oauth/tokens": {
+    "body": {
+      "access_token": "access_token",
+      "token_type": "bearer",
+      "scope": "read"
+    }
+  }
+}
